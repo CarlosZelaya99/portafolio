@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+:root{
+	--color-naranja1: #f3b400;
+	--color-naranja2: #f39c12;
+	--color-azul: #3550c3;
+}
+
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	color: #212529;
+}
+header{
+    background-color: var(--color-naranja2);
+	color: #fff;
+}
+.section{
+	padding:50px 0;
+	min-height:300px;
+}
+
+#intro{
+	background-color: var(--color-naranja1);
+}
+
+
+
+#foto1{
+	background-image: url("../img/retrato_hollywood.jpg");
+	background-position: top center;
+	background-size: cover;
+	border-radius: 25px;
+}
+
+#introtexto{
+	padding: 10% 5%;
+}
+.titulo{
+	font-weight: 600;
+	font-size: 56px;
+	color: #fff; 
+	background-color: var(--color-naranja2);
+	padding: 2%;
+	border-radius: 0 100px 100px 0;
+}
+
+#intro h1{
+	font-size: 100px;
+	font-weight: 800;
+	color: #fff; 
+	background-color: var(--color-naranja2);
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#intro h3{
+	color: #fff;
+	background-color: var(--color-naranja2);
+	padding: 2%;
+	border-radius: 10px;
+}
+
+#intro p{
+	color: #fff;
+	font-size: 15px;
+	padding: 2%;
+}
+
+#servicios .row{
+	text-align: center;
+	padding: 5% 0 0 0;
+}
+
+#servicios i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	border-radius: 100%;
+	background-color: var(--color-naranja1);
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	font-size: 56px;
+	margin-bottom: 25px;
+}
+
+#servicios h3{
+	margin-bottom: 15px;
+	color: var(--color-naranja2);
+	font-size: 24px;
+	font-weight: 600;
+}
+
+.oculto{
+	display: none;
+}
+
+#portafolio .titulo{
+	margin-bottom: 5%;
+}
+
+#portafolio .etiqueta{
+	bottom: 0;
+	right: 0;
+	background-color: var(--color-azul);
+	color: #fff;
+	font-size: 16px;
+	padding: 4px;
+	z-index: 2000;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 100px;
+	margin-top: 15px;
+	border-radius: 0 100px 100px 0;
+}
+
+#banner{
+	background-image: url("../img/mural_unitec.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 30% 0;
+	margin: 50px 0 75px;
+}
+
+#info{
+	background-color: var(--color-naranja1);
+	border-radius: 0 0 100px 0;
+	padding: 3%;
+	color: #fff;
+	font-size: 18px;
+}
+
+#info h3{
+	font-size: 36px;
+	font-weight: 600;
+}
+
+#info i{
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 100%;
+	background-color: #fff;
+	color: var(--color-naranja1);
+	display: inline-block;
+	text-align: center;
+	font-size: 24px;
+	margin-bottom: 25px;
+	margin-right: 15px;
+	margin-left: 15px;
+}
+
+#contacto .btn-primary{
+	background-color: var(--color-azul);
+}
+
+footer{
+	background-color: var(--color-azul);
+	color: #fff;
+	padding: 1% 0;
+}
+
+footer p{
+ text-align: center;
+}
+
+.header-area.sticky{
+    /*box-shadow: 0 4px 10px rgba(0, 0, 0, 0.10);*/
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+	transition: 0.3s all ease;
+}
+	
+.header-area.sticky .navbar-light{
+	background-color: var(--color-naranja2) !important;
+}
+
+
+
